@@ -15,6 +15,7 @@
 
 # === CONSTANTS ===
 SERVER="Tudrme"
+SERVER_USERNAME=""
 SERVER_IP=""
 SCRIPT_VER="0.0.1"
 SERVER_VER="19.6.2.PRERELEASE"
@@ -42,5 +43,13 @@ else
 		exit 1
 	fi
 fi
+
+ssh -i $1 $SERVER_USERNAME@$SERVER_IP << EOF
+sudo service tudrme stop
+cd ~
+mv tudrme tudrme-old
+EOF
+
+scp 
 
 echo "Tudrme Upload Beginning..."
