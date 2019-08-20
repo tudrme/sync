@@ -1,4 +1,4 @@
-# sync
-A collection of scripts to upload and sync files between a client and a server
+# Sync
+A collection of scripts to upload and sync files between a client and a server, as well as links, sheets, and other forms of media. However, it does not handle databases. For databases, visit the `database-io` repository to learn more.
 
-Sync is written by Gideon Tong and maintained by [Tudrme](https://www.tudrme.com).
+Sync is written by Gideon Tong and maintained by [Tudrme](https://www.tudrme.com). Tudrme is platform that allows parents and students to find a fellow student tutor to help them in a subject that they are struggling in or trying to improve. You can visit the website to learn more as well as sign up to get tutored, become a tutor, or even become a student ambassador.
